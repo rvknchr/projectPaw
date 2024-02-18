@@ -12,7 +12,7 @@ url = "https://api.perplexity.ai/chat/completions"
 headers = {
     "accept": "application/json",
     "content-type": "application/json",
-    "authorization": "Bearer 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"
+    "authorization": "Bearer your_api_key"
 }
 
 
