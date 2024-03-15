@@ -54,7 +54,7 @@ def get_response_bot(request):
     
     if messages:
         payload = {
-            "model": "mistral-7b-instruct",
+            "model": "",
             "messages": [
                 {
                     "role": "user",
