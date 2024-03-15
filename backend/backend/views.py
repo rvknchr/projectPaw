@@ -116,7 +116,7 @@ def registration(request):
         # Compose the email message
         subject = 'Welcome to PetCare'
         message = f'Thank you for registering with PetCare. Your Pet ID is: {petid}. We are excited to have you on board!'
-        from_email = 'lambda428@gmail.com'   # Replace with your email address or a valid email address from which you want to send the email
+        from_email = ''   # Replace with your email address or a valid email address from which you want to send the email
 
         # Send the email
         send_mail(subject, message, from_email, [email_address])
